@@ -1,9 +1,11 @@
-import { Route,BrowserRouter as Router,Routes} from 'react-router-dom'
+import { Route, BrowserRouter as Router, Routes } from 'react-router-dom'
+
 import Navbar from './components/Navbar'
 import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Contact from './pages/Contact'
+
 const App = () => {
   return (
     <main className='bg-slate-300/20'>
